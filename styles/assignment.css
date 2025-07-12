@@ -59,10 +59,12 @@ nav{
   max-width: 1140px;
   height: 328px;
   border-radius: 48px;
-  
+  }
+  .dark{color: #5C5A5A;
 
-}
-.image{
+  }
+
+  .image{
   border-radius: 48px;
 }
   
@@ -74,6 +76,7 @@ nav{
   /* Productive Users Section */
     .secondary-bg{
   background-color: #dbdae5;}
+  
   .productive{
   border-radius: 10px;
   padding: 130px 150px;
@@ -82,9 +85,13 @@ nav{
 }
 .item-description{
   font-weight: 600;
+  color: #5C5A5A;
 }
-.about-items{
+.item-title{
   display: flex;
+ font-size: 34px;
+  color: #4E47FF;
+  font-weight:bolder;
   justify-content: space-around;
 }
 .text-center{
@@ -117,6 +124,7 @@ nav{
     }
     .footer-column{
       width: 50%;
+     
     }
     footer input[type="text"], footer input[type="email"] footer textarea {
       height: 64px;
@@ -143,3 +151,4 @@ nav{
   .section-title{
     justify-items: center;
   }
+  .textarea{ outline: none; }
